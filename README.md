@@ -83,8 +83,8 @@ Contains Alembic migration files to track and apply schema changes to the databa
 - date: Date the receipt was created.
 
 # Author
-This project was created by Anthony Mwaura.
+- This project was created by Anthony Mwaura.
 - Email:mwauraa634@gmail.com
 
 # License
-This project is licensed under the MIT License. See the LICENSE file for more details
+- This project is licensed under the MIT License. See the LICENSE file for more details
