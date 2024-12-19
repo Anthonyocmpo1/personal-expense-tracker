@@ -2,6 +2,7 @@
 # Overview
 - The Personal Expense Tracker is a Python-based application that helps users track and manage their personal finances. It allows users to organize their spending into categories, add individual expenses, and associate receipts with these expenses. The application uses SQLAlchemy ORM for database interaction and Alembic for managing database migrations. The project features a Command-Line Interface (CLI) that enables users to interact with the system and manage their financial data.
 # Features
+
 - Category Management: Create and manage categories (e.g., Food, Travel, Entertainment) to group expenses.
 - Expense Management: Track individual expenses with descriptions, amounts, and categories.
 - Receipt Tracking: Attach receipts to specific expenses to maintain documentation for financial records.
@@ -13,36 +14,36 @@
 - Alembic: Database migration tool for managing schema changes.
 - SQLite: Lightweight database for storing data.
 # Setup Instructions
-1.Clone the Repository
+###### Clone the Repository
 - git clone git@github.com:Anthonyocmpo1/personal-expense-tracker.git
 - cd personal-expense-tracker
-2.Set up the environment as mentioned in the previous instructions:
+##### Set up the environment as mentioned in the previous instructions:
 Create a virtual environment.
 Install dependencies from requirements.txt.
 Set up the database using Alembic and SQLAlchemy migrations.
-3. Install Dependencies
+#### Install Dependencies
 Install the required Python packages listed in requirements.txt.
 pip install -r requirements.txt
-4.Set Up the Database
-1.Create the Database:
+### Set Up the Database
+- 1.Create the Database:
 # python create_db.py
-2.Run Alembic Migrations:
+- 2.Run Alembic Migrations:
 # alembic init alembic
 
 # How to Use the CLI
 - python main.py
 # menu of options.
-1: View Categories
-2: Add Category
-3: View Expenses
-4: Add Expense
-5: Update Expense
-6: Delete Expense
-7: View Expenses by Category
-8: View Receipts
-9: Add Receipt
-10: View Receipts by Expense
-11: Exit
+- 1 View Categories
+- 2: Add Category
+- 3: View Expenses
+- 4: Add Expense
+- 5: Update Expense
+- 6: Delete Expense
+- 7: View Expenses by Category
+- 8: View Receipts
+- 9: Add Receipt
+- 10: View Receipts by Expense
+- 11: Exit
 # Code Structure
 # models.py
 
