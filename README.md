@@ -65,26 +65,26 @@ Contains Alembic migration files to track and apply schema changes to the databa
 
 # ategory Table: Stores category information.
 
-id: Primary key.
-name: Name of the category (e.g., Food, Transport).
+- id: Primary key.
+- name: Name of the category (e.g., Food, Transport).
 
 # Expense Table: Stores expense information.
-id: Primary key.
-description: Description of the expense (e.g., Lunch).
-amount: Amount spent.
-category_id: Foreign key referencing the Category table.
-created_at: Timestamp of when the expense was added.
+- id: Primary key.
+- description: Description of the expense (e.g., Lunch).
+- amount: Amount spent.
+- category_id: Foreign key referencing the Category table.
+- created_at: Timestamp of when the expense was added.
 
 # Receipt Table: Stores receipt information.
-id: Primary key.
-receipt_number: Unique receipt identifier.
-expense_id: Foreign key referencing the Expense table.
-notes: Optional notes associated with the receipt.
-date: Date the receipt was created.
+- id: Primary key.
+- receipt_number: Unique receipt identifier.
+- expense_id: Foreign key referencing the Expense table.
+- notes: Optional notes associated with the receipt.
+- date: Date the receipt was created.
 
 # Author
 This project was created by Anthony Mwaura.
--Email:mwauraa634@gmail.com
+- Email:mwauraa634@gmail.com
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details
